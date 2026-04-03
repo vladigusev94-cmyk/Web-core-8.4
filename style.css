@@ -1,0 +1,159 @@
+
+
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Regular.woff") format('woff');
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Medium.woff") format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Bold.woff") format('woff');
+    font-weight: 700;
+    
+}
+  
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+max-width: 1120px;
+height: auto;
+margin: 0 auto;
+
+}
+
+img {
+  padding: 5%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+    
+}
+
+
+
+.header {
+    display: flex;
+    height: 88px;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(126, 126, 130, 1);
+  
+}
+
+
+
+.header__title {
+    margin-right: 15px;
+}
+
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px 20px 10px 20px;
+    background: whitesmoke;
+    
+    
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 72px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: white;
+    border-radius: 5px;
+}
+
+
+.read-more {
+    display: block;
+    background: whitesmoke;
+    max-width: 100%;
+}
+
+.read-more__btn {
+    display: flex;
+   flex-direction: row-reverse;
+    width: 120px;
+
+
+
+}
+
+.read-more__btn:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+summary {
+    list-style: none;
+}
+
+
+.arrow-icon {
+   
+}
+
+.text {
+   
+   
+}
+
+
+
+.last-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px 20px 10px 20px;
+    background: whitesmoke;
+    font-size: 16px;
+    color: rgba(126, 126, 130, 1);
+    margin-bottom: 50px;
+   
+   
+}
+
+
+details {
+    display: block;
+    
+}
+
+
+
+@media(max-width: 768px) {
+    .brands {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .last-menu {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
