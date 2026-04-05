@@ -76,6 +76,20 @@ img {
     
 }
 
+.swiper {
+    width: 100%;
+    height: 200px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background: lightskyblue;
+}
+
+
 .brand {
     display: flex;
     align-items: center;
@@ -116,7 +130,7 @@ summary {
 
 
 .arrow-icon {
-   
+    transition: transform 0.3s ease;
 }
 
 .text {
@@ -155,5 +169,3 @@ details {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
-
