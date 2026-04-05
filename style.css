@@ -94,26 +94,33 @@ img {
 
 
 .circle-logo {
+    display: flex;
    position: relative;
-    width: 16px;
-    height: 16px;
+   width: 40px;
+   height: 40px;
+       
+        
 }
 
 
 .dropdown {
-
-    width: 100%;
-    height: 100%;
-}
-
-.back {
+    
+    width: 7.5px;
+    height: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
+}
+    
+
+
+.back {
+    position: absolute;
      width: 40px;
      height: 40px;
-     
+    
 }
         
 
