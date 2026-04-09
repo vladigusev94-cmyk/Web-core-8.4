@@ -165,9 +165,10 @@ img {
 .read-more__btn {
     display: flex;
     flex-direction: row-reverse;
-    width: 140px;
+    width: 150px;
     align-items: center;
     justify-content: flex-start;
+    gap: 5px;
     
   
 
@@ -177,6 +178,7 @@ img {
 .read-more__btn:hover {
     color: lightskyblue;
     cursor: pointer;
+    
     
 }
 
@@ -196,6 +198,7 @@ summary {
 .read-more__btn {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
 }
 
 
@@ -224,6 +227,9 @@ details {
         grid-template-columns: repeat(3, 1fr) !important;
     }
     
+    .last-menu {
+        padding: 20px;
+    }
 }
 
 
