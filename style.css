@@ -72,19 +72,22 @@ img {
 }
 
 
-.swiper.brands {
+ .brands.swiper {
     max-width: 1120px;
-    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
     overflow: hidden;
     background-color: whitesmoke;
+   
 }
 
 
-.brands .swiper-wrapper {
+
+
+ .brands .swiper-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    padding: 10px 20px 10px 20px;
+    gap: 20px;
+    padding: 5px 5px 5px 20px;
     background: whitesmoke;
 }
 
@@ -99,12 +102,15 @@ img {
     font-size: 16px;
     background: white;
     border-radius: 5px;
+   
 }
 
 
 
 .brands .swiper-slide {
-   width: 100%;
+  width: 250px;
+  padding: 0px 20px 0px 0px;
+   
 }
 
 .swiper-pagination {
@@ -170,10 +176,8 @@ img {
     justify-content: flex-start;
     gap: 5px;
     
-  
-
-
 }
+
 
 .read-more__btn:hover {
     color: lightskyblue;
@@ -190,7 +194,6 @@ summary {
 .arrow-icon {
     width:  8px;
     height: 10px;
-
 }
 
 .swiper,
@@ -199,6 +202,7 @@ summary {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -210,7 +214,6 @@ summary {
     font-size: 16px;
     color: rgba(126, 126, 130, 1);
     margin-bottom: 60px;
-   
    
 }
 
@@ -239,13 +242,12 @@ details {
         background: whitesmoke;
         padding: 25px 0px 55px 25px;
         
-       
     }
 
 
     .read-more {
         display: none;
-        
+
     }
    
     
@@ -260,7 +262,6 @@ details {
         justify-content: center;
         gap: 5px;
         margin-top: 20px;
-       
        
     }
 
