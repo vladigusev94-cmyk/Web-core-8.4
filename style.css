@@ -97,7 +97,6 @@ img {
     align-items: center;
     justify-content: space-evenly;
     height: 72px;
-    width: 100%;
     border: 1px solid gainsboro;
     font-size: 16px;
     background: white;
@@ -179,6 +178,10 @@ img {
 }
 
 
+ .read-more[open] .arrow-icon {
+    transform: rotate(180deg);
+ }
+
 .read-more__btn:hover {
     color: lightskyblue;
     cursor: pointer;
@@ -194,6 +197,7 @@ summary {
 .arrow-icon {
     width:  8px;
     height: 10px;
+    transition: transform 0.3 ease;
 }
 
 .swiper,

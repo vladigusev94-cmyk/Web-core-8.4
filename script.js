@@ -24,3 +24,4 @@ initSwiper();
 window.addEventListener('resize', initSwiper);
 
 console.log ('WORK')
+
