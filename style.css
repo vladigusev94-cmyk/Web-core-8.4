@@ -33,7 +33,6 @@ body {
 max-width: 1120px;
 height: auto;
 margin: 0 auto;
-background-color: white;
 
 }
 
@@ -87,7 +86,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 5px 5px 5px 20px;
+    padding: 5px 5px 5px 10px;
     background: whitesmoke;
 }
 
@@ -97,6 +96,7 @@ img {
     align-items: center;
     justify-content: space-evenly;
     height: 72px;
+    width: 100%;
     border: 1px solid gainsboro;
     font-size: 16px;
     background: white;
@@ -107,7 +107,7 @@ img {
 
 
 .brands .swiper-slide {
-  width: 250px;
+  width: auto;
   padding: 0px 20px 0px 0px;
    
 }
@@ -126,7 +126,7 @@ img {
 
 
 .circle-logo {
-    display: flex;
+   display: flex;
    position: relative;
    width: 40px;
    height: 40px;
@@ -203,10 +203,7 @@ summary {
 .swiper,
 .last-menu,
 .read-more__btn {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 
@@ -214,20 +211,36 @@ summary {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
+    max-width: 1120px;
+    padding: 0px 20px 20px 10px;
     background: whitesmoke;
     font-size: 16px;
     color: rgba(126, 126, 130, 1);
     margin-bottom: 60px;
    
+   
 }
 
+.second-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 72px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    background: white;
+   
+}
 
 details {
     display: block;
     
 }
 
-
+   .brand {
+    width: 100%;
+   }
 
 @media (max-width: 768px) {
     .brands .swiper-wrapper {
@@ -256,7 +269,7 @@ details {
    
     
     .brands .swiper-slide {
-       width: 245px !important;
+       width: 240px !important;
       
     }
 
@@ -282,8 +295,7 @@ details {
         background-color: #666;
         margin-top: 20px;
     }
-    
-    
+  
 }
 
 
