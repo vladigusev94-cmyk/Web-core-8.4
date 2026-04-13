@@ -25,3 +25,13 @@ window.addEventListener('resize', initSwiper);
 
 console.log ('WORK')
 
+const details = document.getElementById('read-more');
+const text = details.querySelector('.text');
+
+details.addEventListener('toggle', () => {
+    if (details.open) {
+        text.textContent = 'Скрыть';
+    } else {
+        text.textContent = 'Показать всё';
+    }
+});

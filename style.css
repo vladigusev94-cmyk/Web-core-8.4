@@ -1,5 +1,6 @@
 
 
+
 @font-face {
     font-family: "TT Lakes";
     src: url("fonts/TTLakes-Regular.woff") format('woff');
@@ -156,7 +157,7 @@ img {
 }
         
 
-.read-more {
+#read-more {
     display: flex;
     width: 100%;
     grid-column: 1 / -1;
@@ -235,7 +236,12 @@ summary {
 
 details {
     display: block;
+
     
+}
+
+details[open] .arrow-icon {
+    transform: rotate(180deg);
 }
 
    .brand {
@@ -250,6 +256,7 @@ details {
     .last-menu {
         padding: 20px;
     }
+    
 }
 
 
@@ -262,11 +269,10 @@ details {
     }
 
 
-    .read-more {
-        display: none;
-
-    }
    
+    #read-more{
+        display: none;
+    }
     
     .brands .swiper-slide {
        width: 240px !important;
@@ -297,7 +303,3 @@ details {
     }
   
 }
-
-
-
-
