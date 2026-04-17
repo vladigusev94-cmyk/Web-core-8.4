@@ -55,6 +55,7 @@ img {
     width: 100%;
     padding: 5px;
     align-items: center;
+    font-family: "TT Lakes";
     font-weight: 400;
     font-size: 16px;
     color: rgba(126, 126, 130, 1);
@@ -159,11 +160,10 @@ img {
 
 #read-more {
     display: flex;
+    flex-direction: column-reverse;
     width: 100%;
-    grid-column: 1 / -1;
-    display: inline-block;
     background-color: whitesmoke;
-    padding: 10px 0px 40px 0px;
+    padding: 10px 0px 10px 0px;
 
     
 }
@@ -171,12 +171,18 @@ img {
 .read-more__btn {
     display: flex;
     flex-direction: row-reverse;
-    width: 150px;
+    width: 130px;
     align-items: center;
     justify-content: flex-start;
     gap: 5px;
-    
+    font-family: "TT Lakes";
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(27, 28, 33, 1);
+
+      
 }
+
 
 
  .read-more[open] .arrow-icon {
@@ -199,19 +205,14 @@ summary {
     width:  8px;
     height: 10px;
     transition: transform 0.3 ease;
-}
-
-.swiper,
-.last-menu,
-.read-more__btn {
-    padding: 20px;
+    
 }
 
 
 .last-menu {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    gap: 40px;
     max-width: 1120px;
     padding: 0px 20px 20px 10px;
     background: whitesmoke;
@@ -227,7 +228,7 @@ summary {
     align-items: center;
     justify-content: space-evenly;
     height: 72px;
-    width: 100%;
+    width: 245px;
     border-radius: 5px;
     border: 1px solid gainsboro;
     background: white;
@@ -236,12 +237,14 @@ summary {
 
 details {
     display: block;
+  
 
     
 }
 
 details[open] .arrow-icon {
     transform: rotate(180deg);
+
 }
 
    .brand {
@@ -255,8 +258,29 @@ details[open] .arrow-icon {
     
     .last-menu {
         padding: 20px;
+    
     }
     
+    .second-menu {
+        width: 220px;
+       
+        
+    }
+
+    .read-more__btn {
+        display: flex;
+    flex-direction: row-reverse;
+    width: 130px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-family: "TT Lakes";
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(27, 28, 33, 1);
+ 
+        
+    }
 }
 
 
@@ -285,7 +309,7 @@ details[open] .arrow-icon {
         justify-content: center;
         gap: 5px;
         margin-top: 20px;
-       
+        color: rgba(221, 221, 221, 1);
     }
 
     .swiper-pagination-bullet {
