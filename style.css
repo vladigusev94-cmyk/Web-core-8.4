@@ -171,15 +171,16 @@ img {
 .read-more__btn {
     display: flex;
     flex-direction: row-reverse;
-    width: 130px;
+    max-width: 130px;
     align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
+    justify-content: center;
+    margin-left: 12px;
+    gap: 15px;
     font-family: "TT Lakes";
     font-weight: 500;
     font-size: 16px;
     color: rgba(27, 28, 33, 1);
-
+  
       
 }
 
@@ -202,9 +203,11 @@ summary {
 
 
 .arrow-icon {
-    width:  8px;
+    max-width: 8px;
     height: 10px;
     transition: transform 0.3 ease;
+  
+    
     
 }
 
@@ -228,7 +231,7 @@ summary {
     align-items: center;
     justify-content: space-evenly;
     height: 72px;
-    width: 245px;
+    width: 100%;
     border-radius: 5px;
     border: 1px solid gainsboro;
     background: white;
@@ -257,22 +260,24 @@ details[open] .arrow-icon {
     }
     
     .last-menu {
-        padding: 20px;
+        padding: 12px;
     
     }
     
     .second-menu {
-        width: 220px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 222.5px;
        
         
     }
 
     .read-more__btn {
-        display: flex;
+    display: flex;
     flex-direction: row-reverse;
-    width: 130px;
+    max-width: 130px;
     align-items: center;
-    justify-content: flex-start;
+   
     gap: 5px;
     font-family: "TT Lakes";
     font-weight: 500;
@@ -292,9 +297,8 @@ details[open] .arrow-icon {
         
     }
 
-
    
-    #read-more{
+    #read-more {
         display: none;
     }
     
@@ -313,17 +317,19 @@ details[open] .arrow-icon {
     }
 
     .swiper-pagination-bullet {
-         width: 8px;
+         width: 15px;
          height: 8px;
-        background-color: #ccc;
         opacity: 1;
         border-radius: 50%;
         margin-top: 10px;
+        background-color: rgba(221, 221, 221, 1);
     }
 
     .swiper-pagination-bullet-active {
-        background-color: #666;
-        margin-top: 20px;
+       
+        margin-top: 2px;
+        background-color:rgba(181, 182, 188, 1);
+        color: aqua;
     }
   
 }
