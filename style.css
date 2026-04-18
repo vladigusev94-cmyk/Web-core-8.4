@@ -124,7 +124,9 @@ img {
     display: none;
 }
 
-
+:root {
+    --swiper-pagination-color: rgba(126, 126, 130, 1);
+}
 
 
 .circle-logo {
@@ -328,8 +330,8 @@ details[open] .arrow-icon {
     .swiper-pagination-bullet-active {
        
         margin-top: 2px;
-        background-color:rgba(181, 182, 188, 1);
-        color: aqua;
+       
+     
     }
   
 }
