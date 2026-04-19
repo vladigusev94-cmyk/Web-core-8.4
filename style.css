@@ -75,7 +75,6 @@ img {
 
  .brands.swiper {
     max-width: 1120px;
-    padding: 0px 0px 0px 0px;
     overflow: hidden;
     background-color: whitesmoke;
    
@@ -88,7 +87,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 5px 5px 5px 10px;
+    padding: 20px 5px 5px 10px;
     background: whitesmoke;
 }
 
@@ -173,15 +172,17 @@ img {
 .read-more__btn {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 130px;
+    max-width: 140px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-left: 12px;
     gap: 15px;
     font-family: "TT Lakes";
     font-weight: 500;
     font-size: 16px;
     color: rgba(27, 28, 33, 1);
+   
+   
   
       
 }
@@ -190,6 +191,9 @@ img {
 
  .read-more[open] .arrow-icon {
     transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
  }
 
 .read-more__btn:hover {
@@ -212,6 +216,12 @@ summary {
     
     
 }
+
+
+.text {
+    width: 120px;
+}
+
 
 
 .last-menu {
@@ -277,14 +287,16 @@ details[open] .arrow-icon {
     .read-more__btn {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 130px;
+    min-width: 100px;
     align-items: center;
-   
-    gap: 5px;
+    justify-content: center;
+    margin-left: 12px;
+    gap: 20px;
     font-family: "TT Lakes";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     color: rgba(27, 28, 33, 1);
+   
  
         
     }
@@ -295,7 +307,7 @@ details[open] .arrow-icon {
     .brands .swiper-wrapper {
         display: flex !important;
         background: whitesmoke;
-        padding: 25px 0px 55px 25px;
+        padding: 25px 0px 50px 25px;
         
     }
 
@@ -305,7 +317,7 @@ details[open] .arrow-icon {
     }
     
     .brands .swiper-slide {
-       width: 240px !important;
+       width: 242px !important;
       
     }
 
@@ -327,11 +339,10 @@ details[open] .arrow-icon {
         background-color: rgba(221, 221, 221, 1);
     }
 
-    .swiper-pagination-bullet-active {
        
-        margin-top: 2px;
+        
        
-     
-    }
+
+    
   
 }
